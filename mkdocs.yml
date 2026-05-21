@@ -1,8 +1,8 @@
-site_name: Домашний проект # Название сайта
+site_name: Домашний проект (i.beliaevskaia) # Название сайта
 site_description: Профессиональное портфолио # Описание сайта, добавляется в meta-теги
 theme: # Тема сайта, информация о ее параметрах
   name: material # Название темы
-  logo: images/logo.svg # Ссылка на логотип сайта, логотип добавляется в папку `docs/images`
+  logo: images/poetry.png # Ссылка на логотип сайта, логотип добавляется в папку `docs/images`
   font:
     text: Roboto # Шрифт текста
     code: Roboto Mono # Шрифт для текста кода
@@ -12,8 +12,8 @@ theme: # Тема сайта, информация о ее параметрах
     - scheme: default 
       toggle:
         icon: material/weather-sunny # Иконка для активации светлой темы
-        name: Выключить солнышко # Всплывающий текст-подсказка
-      primary: teal # Основной цвет
+        name: Включить темную тему # Всплывающий текст-подсказка
+      primary: brown # Основной цвет
       accent: light green # Акцентный цвет
       # вы можете использовать любой цвет из списка: 
       # red; pink; purple; deep purple; indigo; blue; light blue; cyan; teal; 
@@ -24,7 +24,7 @@ theme: # Тема сайта, информация о ее параметрах
     - scheme: slate
       toggle:
         icon: material/weather-night
-        name: Позвать солнышко
+        name: Включить светлую тему
       primary: deep purple
       accent: blue
   features: # настройки функциональностей темы
@@ -45,11 +45,10 @@ nav: # Структура сайта
   - Главная: index.md
   - База знаний:
     - knowledge-base/index.md
-    - Шпаргалка по MkDocs: knowledge-base/doc-mkdocs.md
+    - Шпаргалка по MkDocs: knowledge-base/mkdocs-cheatsheet.md
     - Шпаргалка по Git: knowledge-base/git-cheatsheet.md
   - Портфолио:
     - portfolio/index.md
-    - Гайд по Release Notes: portfolio/guide-rn.md
     - Пример инструкции: portfolio/instructions.md
 
 markdown_extensions: # Расширения markdown
