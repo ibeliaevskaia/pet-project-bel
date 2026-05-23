@@ -50,6 +50,7 @@ nav: # Структура сайта
   - Портфолио:
     - portfolio/index.md
     - Пример инструкции: portfolio/instructions.md
+    - Сценарий "Редактирование заметки": portfolio/change-note.md
 
 markdown_extensions: # Расширения markdown
   - admonition # Поддержка информационных панелей (сообщений типа «Внимание», «Совет», «Примечание», etc.)
