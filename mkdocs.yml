@@ -69,4 +69,9 @@ markdown_extensions: # Расширения markdown
 
 plugins:
   - search # Плагин для подключения поиска на портале
+  - tags:
+      tags_allowed:
+      - helps
+      - портфолио
+      - manuals
   
