@@ -69,6 +69,7 @@ markdown_extensions: # Расширения markdown
 
 plugins:
   - search # Плагин для подключения поиска на портале
+  - glightbox # Плагин для подключения галереи изображений
   - tags:
       tags_allowed:
       - helps
