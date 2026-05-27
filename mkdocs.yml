@@ -51,6 +51,8 @@ nav: # Структура сайта
     - portfolio/index.md
     - Пример инструкции: portfolio/instructions.md
     - Сценарий «Редактирование заметки»: portfolio/change-note.md
+    - API Specification Swagger: portfolio/api-swagger.md
+    - API Specification Redoc: portfolio/api-redoc.md
 
 markdown_extensions: # Расширения markdown
   - admonition # Поддержка информационных панелей (сообщений типа «Внимание», «Совет», «Примечание», etc.)
@@ -71,6 +73,8 @@ markdown_extensions: # Расширения markdown
 plugins:
   - search # Плагин для подключения поиска на портале
   - glightbox # Плагин для подключения галереи изображений
+  - swagger-ui-tag # Плагин для апи в формате сваггера
+  - redoc-tag # Плагин для апи в формате редок
   - tags:
       tags_allowed:
       - helps
