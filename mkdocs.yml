@@ -1,7 +1,9 @@
 site_name: Домашний проект (i.beliaevskaia) # Название сайта
 site_description: Профессиональное портфолио # Описание сайта, добавляется в meta-теги
+site_author: i.beliaevskaia
 theme: # Тема сайта, информация о ее параметрах
   name: material # Название темы
+  favicon: images/poetry.png  # путь относительно docs/
   logo: images/poetry.png # Ссылка на логотип сайта, логотип добавляется в папку `docs/images`
   font:
     text: Roboto # Шрифт текста
@@ -75,6 +77,8 @@ plugins:
   - glightbox # Плагин для подключения галереи изображений
   - swagger-ui-tag # Плагин для апи в формате сваггера
   - redoc-tag # Плагин для апи в формате редок
+  - plantuml:
+      puml_url: https://www.plantuml.com/plantuml/
   - tags:
       tags_allowed:
       - helps
