@@ -1,4 +1,6 @@
 site_name: Домашний проект (i.beliaevskaia) # Название сайта
+extra_css:
+  - stylesheets/extra.css
 site_description: Профессиональное портфолио # Описание сайта, добавляется в meta-теги
 site_author: i.beliaevskaia
 theme: # Тема сайта, информация о ее параметрах
@@ -71,6 +73,7 @@ markdown_extensions: # Расширения markdown
   # - pymdownx.emoji: # Иконки и эмодзи
   #    emoji_index: !!python/name:material.extensions.emoji.twemoji
   #    emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.snippets
 
 plugins:
   - search # Плагин для подключения поиска на портале
@@ -85,3 +88,4 @@ plugins:
       - портфолио
       - manuals
   
+
